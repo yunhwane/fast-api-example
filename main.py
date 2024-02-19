@@ -1,8 +1,9 @@
 from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
 
-from domain import question
+import domain.question.question
 from domain.answer import answer
+from domain.question import question
 
 app = FastAPI()
 

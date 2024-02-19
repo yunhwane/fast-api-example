@@ -6,8 +6,7 @@ from starlette import status
 
 from database import get_db
 from domain.answer import answer_schema, answer_crud
-from domain.question_crud import get_question_by_id
-from models import Question
+from domain.question.question_crud import get_question_by_id
 
 router = APIRouter(
     prefix="/api/v1/answer"

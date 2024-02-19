@@ -2,7 +2,7 @@ import datetime
 
 from sqlalchemy.orm import Session
 
-from domain.question_schema import create_question
+from domain.question.question_schema import create_question
 from models import Question
 
 
