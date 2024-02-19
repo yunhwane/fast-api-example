@@ -9,3 +9,7 @@ class Question(BaseModel):
     content: str
     create_date: datetime
 
+
+class create_question(BaseModel):
+    subject : str
+    content : str
