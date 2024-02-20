@@ -57,8 +57,7 @@ def get_db():
 
 ```
 
-- 반복되는 db 트랜잭션 자동화 
-- @Transactional 역할
+- 반복되는 db 세션 연결 자동화 
 
 제너레이터 함수에 @contextlib.contextmanager 어노테이션을 적용했으므로 다음과 같이 with 문과 함께 사용
 
